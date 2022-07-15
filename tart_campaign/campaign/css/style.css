@@ -6,7 +6,7 @@ html {
 }
 body { 
 	font-family: "Kosugi Maru", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "sans-serif";
-	background: url("../images/bg-cover_01.jpg") center center / cover no-repeat fixed ;
+	background: url("../images/bg-cover_01.png") center center / cover no-repeat fixed ;
 }
 img { 
 	max-width: 100%;
@@ -39,7 +39,7 @@ h3{
 }
 a.btn {
 	display:inline-block;
-	border:2px solid #603813;
+	border:2px solid #0E185F;
 	color:#fff;
 	padding:15px 30px;
 	margin:40px 0 0 0;
@@ -47,13 +47,16 @@ a.btn {
 	border-radius:10px;
 	transform:translateY(0px);
 	transition:all 0.3s;
-	background:#603813;
+	background:#0E185F;
 }
 a.btn:hover {
-	color:#603813;
+	color:#0E185F;
 	background:#fff;
 	transform:translateY(-3px);
-	box-shadow:0 5px 0 #603813;
+	box-shadow:0 5px 0 #0E185F;
+}
+header{
+    background:#ccc;
 }
 
 header .logo { 
@@ -81,7 +84,7 @@ footer .f-logo img {
 }
 nav {
 	padding:30px 0;
-	background:#BC272D;
+	background: #DFF6FF;
 }
 nav ul.icon-navi {
 	display: flex;
@@ -111,7 +114,7 @@ nav ul.icon-navi li img {
 }
 
 .howto {
-	background: #F6E821;
+	background: #F2FA5A;
 	padding:60px 20px 100px 20px;
 }
 .how-inner{
@@ -145,7 +148,7 @@ nav ul.icon-navi li img {
     width: 100%;
 }
 .terms {
-    background: #eee;
+    background: #ccc;
     padding:60px 20px;
 }
 .terms .te-txt{
